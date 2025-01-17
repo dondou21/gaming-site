@@ -6,4 +6,6 @@
 .banner {
     height: 1250px;
     margin: 10px;
+    background-image: url('/images/banner-bg.jpeg');
 }
+
