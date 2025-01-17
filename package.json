@@ -1,0 +1,15 @@
+{
+  "name": "gaming-site",
+  "version": "1.0.0",
+  "description": "Gym website cloning project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
