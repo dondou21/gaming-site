@@ -705,10 +705,6 @@ video {
   margin-left: 230px;
 }
 
-.ml-\[50px\] {
-  margin-left: 50px;
-}
-
 .ml-\[875px\] {
   margin-left: 875px;
 }
@@ -767,6 +763,10 @@ video {
 
 .h-\[335px\] {
   height: 335px;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .w-10 {
