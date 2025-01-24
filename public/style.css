@@ -745,12 +745,12 @@ video {
   height: 12rem;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
 .h-56 {
   height: 14rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .h-\[1050px\] {
@@ -763,10 +763,6 @@ video {
 
 .h-\[335px\] {
   height: 335px;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .w-10 {
