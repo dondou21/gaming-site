@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .top-categories {
-    @apply w-80 h-80 bg-blue-600 rounded-3xl overflow-hidden ;
+    @apply w-80 h-full bg-blue-600 rounded-3xl overflow-hidden ;
+}
+
+.top-image {
+    @apply rounded-3xl  w-full object-cover ;
 }
