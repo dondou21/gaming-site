@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.top-categories {
+    @apply w-80 h-80 bg-blue-600 rounded-3xl overflow-hidden ;
+}

@@ -745,12 +745,12 @@ video {
   height: 12rem;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
 .h-56 {
   height: 14rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .h-\[1050px\] {
@@ -763,10 +763,6 @@ video {
 
 .h-\[335px\] {
   height: 335px;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .w-10 {
@@ -1114,6 +1110,15 @@ video {
 .shadow-slate-500 {
   --tw-shadow-color: #64748b;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.top-categories {
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:bg-blue-500:hover {
