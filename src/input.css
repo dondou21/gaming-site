@@ -7,7 +7,7 @@
 }
 
 .user-icon {
-    @apply bg-white w-80 h-56 -mt-24 rounded-3xl shadow-2xl shadow-slate-500 grid items-center justify-center;
+    @apply bg-white xl:w-80  xl:h-56 lg:h-44 lg:w-52 -mt-24 rounded-3xl shadow-2xl shadow-slate-500 grid items-center justify-center;
 }
 
 .trending {
