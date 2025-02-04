@@ -1168,8 +1168,6 @@ video {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
@@ -1182,6 +1180,19 @@ video {
 .menu-text:active {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
+@media (min-width: 1024px) {
+  .menu-text {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .menu-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .user-icon {
@@ -1283,4 +1294,32 @@ video {
 .hover\:text-red-400:hover {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 1024px) {
+  .lg\:-mt-10 {
+    margin-top: -2.5rem;
+  }
+
+  .lg\:ml-24 {
+    margin-left: 6rem;
+  }
+
+  .lg\:h-12 {
+    height: 3rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:pl-28 {
+    padding-left: 7rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-full {
+    width: 100%;
+  }
 }
