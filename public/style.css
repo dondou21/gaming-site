@@ -1314,6 +1314,11 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
   .lg\:-mt-12 {
     margin-top: -3rem;
   }
@@ -1340,6 +1345,10 @@ video {
 
   .lg\:pl-28 {
     padding-left: 7rem;
+  }
+
+  .lg\:pl-24 {
+    padding-left: 6rem;
   }
 }
 
