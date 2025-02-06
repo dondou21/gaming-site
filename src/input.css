@@ -11,7 +11,7 @@
 }
 
 .trending {
-    @apply grid w-80 h-[335px]  bg-gray-200 mb-12 rounded-3xl;
+    @apply grid w-80 h-[335px] lg:w-52  bg-gray-200 mb-12 rounded-3xl;
 }
 
 .most-played {
